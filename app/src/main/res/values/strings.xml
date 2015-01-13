@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Contags</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="invite_email_hint">Enter email</string>
+    <string name="pick_email_label">Pick email</string>
+    <string name="pick_photo_label">Pick Photo</string>
+    <string name="action_settings">Settings</string>
+    <string name="saveButtonText">Save</string>
+
+
+</resources>

@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_height="wrap_content"
+            android:hint="@string/invite_email_hint"
+            android:id="@+id/invite_email"
+            android:inputType="textEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@+id/do_email_picker"
+            android:layout_alignParentLeft="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/do_email_picker"
+            android:text="@string/pick_email_label"
+            android:layout_alignParentRight="true"
+            android:onClick="doLaunchContactPicker" />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/do_gallery_picker"
+        android:text="@string/pick_photo_label"
+        android:layout_alignParentRight="true"
+        android:onClick="doLaunchPhotoPicker" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saveButtonText"
+        android:id="@+id/saveButton"
+        android:layout_gravity="center_horizontal"
+        android:onClick="save"/>
+</LinearLayout>
